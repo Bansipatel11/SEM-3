@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n=parseInt(prompt("enter n"))
+        a=n,sum=0
+        while(n>0){
+            r=n%10;
+            sum=(sum*10)+r;
+            n=parseInt(n/10);
+        }
+        if(sum==a){
+            document.write("pelindrom")
+        }
+        else{
+            document.write("not pelindrom")
+        }
+        
+    </script>
+</body>
+</html>
